@@ -7,4 +7,4 @@ function LandingPage() {
         </div>
     );
 }
-export default App;
+export default LandingPage;
