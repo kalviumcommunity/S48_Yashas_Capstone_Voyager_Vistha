@@ -6,7 +6,7 @@ dotenv.config();
 
 // define the /env route with the response in JSON
 
-app.get('/ping', (req,res)=> {
+app.get('/', (req,res)=> {
   res.json({message:"pong"});
 })
 
