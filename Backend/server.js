@@ -10,10 +10,10 @@ app.get('/', (req,res)=> {
   res.json({message:"pong"});
 })
 
+
 if (require.main === module) {
   app.listen(port, () => {
     console.log(`🚀 server running on PORT: ${port}`);
   });
 }
-
 module.exports = app;
