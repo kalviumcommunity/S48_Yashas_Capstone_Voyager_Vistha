@@ -1,0 +1,25 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0C3957; /* Add background color */
+    color: white; /* Set text color to white for better contrast */
+}
+
+body{
+    margin: 0;
+    padding: 0;
+  }
+
+.button {
+    display: flex;
+}
+
+.container {
+ height: 90vh;
+}
+
+.signupButton {
+    margin-right: 10px;
+}
