@@ -5,6 +5,7 @@ nav {
     padding: 20px;
     background-color: #0C3957; /* Add background color */
     color: white; /* Set text color to white for better contrast */
+    height: 100px;
 }
 
 body{
@@ -22,4 +23,13 @@ body{
 
 .signupButton {
     margin-right: 10px;
+}
+.signupButton,
+.loginButton {
+    margin-right: 20px; /* Adjust this value to change the space between the buttons */
+}
+.signupButton button,
+.loginButton button {
+    height: 41px; 
+    width: 104px ;
 }

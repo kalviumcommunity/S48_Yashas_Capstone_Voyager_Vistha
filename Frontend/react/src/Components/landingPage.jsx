@@ -9,7 +9,7 @@ function LandingPage() {
                 <nav>
                     <h1>Voyager Vistha </h1>
                    <div  className="button">
-                        <div className="loginButton"><button>Login</button></div>
+                        <div className="loginButton"><button>Log in</button></div>
                         <div className="signupButton"><button>Sign Up</button></div>
                     </div>
                 </nav>
