@@ -7,7 +7,8 @@ function LandingPage() {
         <div>
             <div>
                 <nav>
-                    <h1>Voyager Vistha </h1>
+                    <div className="Appname">
+                    <h1>Voyager Vistha </h1></div>
                    <div  className="button">
                         <div className="loginButton"><button>Log in</button></div>
                         <div className="signupButton"><button>Sign Up</button></div>
