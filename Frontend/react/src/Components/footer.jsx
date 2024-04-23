@@ -1,5 +1,5 @@
 import React from 'react';
-import './footer.css';
+import './Css/footer.css';
 
 function Footer() {
     return (
@@ -10,7 +10,6 @@ function Footer() {
                  <p> Contacts </p>
                  <p> Registered  office  Address</p>
                  <p> Make  Money  with  Us </p>
-
                 </div>
             </div>
         </footer>

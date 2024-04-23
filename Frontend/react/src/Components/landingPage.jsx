@@ -37,7 +37,6 @@ function LandingPage() {
             </div>
             <div className="container">
                 <h1>Landing Page</h1>
-                <img src={images[currentImageIndex]} alt="Slideshow" />
             </div>
             <Footer />
         </div>
