@@ -20,6 +20,7 @@ function Signup() {
         setAge(e.target.value);
     }
 
+    
     const handlePasswordChange = (e) => {
         setPassword(e.target.value);
     }
