@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0C3957; /* Add background color */
+    color: white; /* Set text color to white for better contrast */
+    height: 100px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+  }
+
+.button {
+    display: flex;
+}
+
+.container {
+ height: 100vh;
+}
+.Appname {
+   
+        font-family: "Alex Brush", cursive;
+        font-size: 50px;
+        text-decoration: none;
+}
+      
+    
+
+.signupButton {
+    margin-right: 10px;
+}
+.signupButton,
+.loginButton {
+    margin-right: 20px; /* Adjust this value to change the space between the buttons */
+}
+.signupButton button,
+.loginButton button {
+    height: 41px; 
+    width: 104px ;
+    background-color:#014F86 ;
+    border-radius: 10vh;
+    color: white;
+}
+img {
+    height: 100%;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
