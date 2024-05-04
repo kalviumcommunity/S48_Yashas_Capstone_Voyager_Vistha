@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import Footer from './footer';
+import './Css/Login.css';
+
 
 function Login() {
     const [email, setEmail] = useState('');
@@ -40,7 +43,12 @@ function Login() {
                 </nav>
             </div>
             <div>
+            <div className="container">
+
+            <div className="login-container">
+
                 <form onSubmit={handleSubmit}>
+
                     <label>
                         Email:
                         <input type="email" value={email} onChange={handleEmailChange} />
@@ -55,6 +63,10 @@ function Login() {
                 </form>
             </div>
         </div>
+        </div>
+        <Footer />
+        </div>
+
     )
 }
 

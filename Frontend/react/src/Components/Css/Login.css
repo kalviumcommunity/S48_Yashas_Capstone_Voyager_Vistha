@@ -55,3 +55,81 @@ a{
     text-decoration: none;
     color: white;
 }
+/* LoginContainer.css */
+
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.login-container form {
+    margin-top: 20px;
+}
+
+.login-container form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.login-container form input[type="email"],
+.login-container form input[type="password"] {
+    width: calc(100% - 22px); /* Adjusted width */
+    padding: 8px; /* Adjusted padding */
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.login-container form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login-container form button:hover {
+    background-color: #0056b3;
+}
+
+.login-container nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.login-container nav h1 {
+    margin: 0;
+}
+
+.login-container nav button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login-container nav button:hover {
+    background-color: #0056b3;
+}
+
+/* Styles for the footer (assuming it's similar for both Signup and Login containers) */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
+.container {
+    height: 100vh;
+   }

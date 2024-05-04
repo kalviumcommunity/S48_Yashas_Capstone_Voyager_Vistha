@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import './Css/Signup.css';
+import Footer from './footer';
+
 
 function Signup() {
     const [username, setUsername] = useState('');
@@ -47,6 +50,7 @@ function Signup() {
 
     return (
         <div>
+
             <div>
                 <nav>
                     <div className="Appname">
@@ -63,6 +67,9 @@ function Signup() {
                     </div>
                 </nav>
             </div>
+            <div className="container">
+            <div className="signup-container">
+
             <div>
                 <form onSubmit={handleSubmit}>
                     <label>
@@ -94,6 +101,10 @@ function Signup() {
                 </form>
             </div>
         </div>
+        </div>
+        <Footer />
+        </div>
+
     )
 }
 
