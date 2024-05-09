@@ -7,7 +7,7 @@ dotenv.config();
 // define the /env route with the response in JSON
 
 app.get('/', (req,res)=> {
-  res.json({message:"pong"});
+  res.json({message:"pong"}); 
 })
 
 
