@@ -14,6 +14,6 @@ const UserValidation = Joi.object({
     });
 
 module.exports = {
-    UserModel,UserValidation
+    UserModel,
 };
 
