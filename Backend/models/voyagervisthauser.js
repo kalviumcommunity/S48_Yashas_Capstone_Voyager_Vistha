@@ -9,9 +9,6 @@ const UserSchema = new mongoose.Schema({
     places: [{ name: String, experiences: [String], feedback: [String] }], 
 });
 
-
-
 const UserModal = mongoose.model("users", UserSchema);
 module.exports = {
-    UserModal
-};
+    UserModal};
